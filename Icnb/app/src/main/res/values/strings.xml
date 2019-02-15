@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Icnb</string>
+    <string name="txt_btn_submit">Submit</string>
+    <string name="til_hint_character">INTRODUCE CHARACTER NAME / LAST NAME</string>
+</resources>
