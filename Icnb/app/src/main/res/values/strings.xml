@@ -3,4 +3,9 @@
     <string name="txt_btn_submit">Submit</string>
     <string name="til_hint_character">INTRODUCE CHARACTER NAME / LAST NAME</string>
     <string name="base_url">http://api.icndb.com</string>
+    <string name="tv_action_ranmdom_joke">Press to get Random Joke</string>
+    <string name="tv_action_character_joke">Press to open Character Jokes</string>
+    <string name="tv_action_endless_joke">Press to open Endless Jokes</string>
+    <string name="btn_text_get_me_a_joke">Get me a Joke!</string>
+    <string name="btn_text_endless_joke">Show me all Jokes!</string>
 </resources>
