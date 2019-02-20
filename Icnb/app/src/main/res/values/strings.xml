@@ -1,7 +1,8 @@
 <resources>
     <string name="app_name">Icnb</string>
     <string name="txt_btn_submit">Submit</string>
-    <string name="til_hint_character">INTRODUCE CHARACTER NAME / LAST NAME</string>
+    <string name="til_hint_first_name">INTRODUCE CHARACTER FIRST NAME</string>
+    <string name="til_hint_last_name">INTRODUCE CHARACTER LAST NAME</string>
     <string name="base_url">http://api.icndb.com</string>
     <string name="tv_action_ranmdom_joke">Press to get Random Joke</string>
     <string name="tv_action_character_joke">Press to open Character Jokes</string>

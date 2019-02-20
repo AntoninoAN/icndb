@@ -2,8 +2,13 @@ package com.example.toboc.icnb
 
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
+import android.view.View
+import com.example.toboc.icnb.view.ViewContract
 
-class MainActivity : AppCompatActivity() {
+class MainActivity : AppCompatActivity(), ViewContract {
+    override fun clickView(view: View): View.OnClickListener {
+        TODO("not implemented") //To change body of created functions use File | Settings | File Templates.
+    }
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
