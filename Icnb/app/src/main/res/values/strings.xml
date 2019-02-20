@@ -8,5 +8,6 @@
     <string name="tv_action_character_joke">Press to open Character Jokes</string>
     <string name="tv_action_endless_joke">Press to open Endless Jokes</string>
     <string name="btn_text_get_me_a_joke">Get me a Joke!</string>
+    <string name="btn_text_character_joke">Get me a new Character!</string>
     <string name="btn_text_endless_joke">Show me all Jokes!</string>
 </resources>
