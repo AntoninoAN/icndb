@@ -1,7 +1,6 @@
 package com.example.toboc.icnb.model
 
-import com.example.toboc.icnb.R
-import io.reactivex.Observable
+import android.arch.lifecycle.LiveData
 import retrofit2.Retrofit
 import retrofit2.adapter.rxjava2.RxJava2CallAdapterFactory
 import retrofit2.converter.gson.GsonConverterFactory
@@ -11,14 +10,14 @@ import retrofit2.http.Query
 interface IcndbService {
     //first button
     @GET("/jokes/random")
-    fun getSingleRandomJoke() : Observable<JokesPoKo.Value>
+    fun getSingleRandomJoke() : LiveData<JokesPoKo.Value>
     //Text requirement
     @GET("/jokes/random")
     fun getJokeCharacter(@Query("firstName") firstName : String,
-                         @Query("lastName") lastName : String) : Observable<JokesPoKo.Value>
+                         @Query("lastName") lastName : String) : LiveData<JokesPoKo.Value>
     //batches of 20
     @GET("jokes/random/20")
-    fun getJokesBatch() : Observable<JokesPoKo.Value>
+    fun getJokesBatch() : LiveData<JokesPoKo.Value>
 
     companion object {
 //        val baseUrl = context.getString(R.string.base_url)

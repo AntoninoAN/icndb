@@ -29,7 +29,7 @@
                 android:text="@string/btn_text_character_joke"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:id="@+id/button2"
+                android:id="@+id/btn_character"
                 android:textColor="@android:color/white"
                 android:background="#007DF0"
                 app:layout_constraintStart_toStartOf="parent" android:layout_marginStart="8dp"
